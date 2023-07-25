@@ -3,6 +3,8 @@ import TransactionsTable from './TransactionsTable';
 import TransactionForm from './TransactionForm';
 import SearchBar from './SearchBar';
 import axios from 'axios';
+import './styles.css'; // Import the custom styles
+
 
 const App = () => {
   const [transactions, setTransactions] = useState([]);
