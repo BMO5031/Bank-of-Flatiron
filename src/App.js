@@ -44,7 +44,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Bank Transactions</h1>
+      <h1>Bank Transactions of Flatiron</h1>
       <TransactionForm addTransaction={addTransaction} />
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <button onClick={() => sortTransactions('category')}>
